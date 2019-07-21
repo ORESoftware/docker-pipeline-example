@@ -5,8 +5,9 @@
 To run the example:
 
 ```bash
-git clone https://github.com/ORESoftware/docker-pipeline-example.git dpe
-cd dpe
+set -e;
+clone_url='https://github.com/ORESoftware/docker-pipeline-example.git'
+git clone "$clone_url" dpe && cd dpe
 ./run.sh
 
 ```
