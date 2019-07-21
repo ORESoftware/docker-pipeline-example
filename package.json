@@ -1,0 +1,29 @@
+{
+  "name": "docker-pipeline-example",
+  "version": "1.0.0",
+  "description": "Piping stdio to consumer from producer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo noop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/docker-pipeline-example.git"
+  },
+  "keywords": [
+    "docker",
+    "pipeline",
+    "example",
+    "stdio",
+    "stdout",
+    "stderr",
+    "streams",
+    "pipes"
+  ],
+  "author": "Olegzandr VD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/docker-pipeline-example/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/docker-pipeline-example#readme"
+}
