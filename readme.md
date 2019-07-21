@@ -2,8 +2,20 @@
 
 # Example of shell pipelines with docker
 
+To run the example:
+
+```bash
+git clone https://github.com/ORESoftware/docker-pipeline-example.git dpe
+cd dpe
+./run.sh
+
+```
+
+```bash
 
 docker run --rm -ti 'dpe-producer' | docker run --rm -i 'dpe-consumer'
+
+```
 
 
 ## To kill the pipeline
