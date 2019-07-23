@@ -21,6 +21,6 @@ producer_pid="$!"
 
 wait "$consumer_pid" "$producer_pid";
 
-echo 'Now writing to run.log' ...
+echo 'Now writing to run.log ...' 
 
 docker run --rm -ti 'dpe-producer' | docker run --rm -i 'dpe-consumer'  > run.log
